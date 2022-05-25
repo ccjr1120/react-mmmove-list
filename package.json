@@ -1,0 +1,47 @@
+{
+  "name": "react-mmmove-list",
+  "version": "1.0.0",
+  "description": "&emsp;&emsp;React 的动画库有很多，易于理解的 React-transition-group，配置灵活的 motion 以及看起来就很强大 react-spring。我在使用他们的时候，就觉得他们之中元素的动画与另一个元素的动画之间很少有互动。并不是不能写，他们提供了我无法想象的灵活度，只是代码要更多。本组件是一个强调元素与元素之间动画互动的单例，主要是针对 list 中每一项与每一项之间切换的动画。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --color --progress --config config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccjr1120/react-mmmove-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccjr1120/react-mmmove-list/issues"
+  },
+  "homepage": "https://github.com/ccjr1120/react-mmmove-list#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/react": "^11.4.1",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "html-webpack-plugin": "^5.3.2",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "6"
+  }
+}
